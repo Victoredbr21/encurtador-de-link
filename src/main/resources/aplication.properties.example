@@ -1,0 +1,15 @@
+# Datasource
+spring.datasource.url=jdbc:postgresql://localhost:5432/linkly
+spring.datasource.username=postgres
+spring.datasource.password=
+
+# JPA / Hibernate
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=validate
+
+# Flyway
+spring.flyway.enabled=true
+spring.flyway.locations=classpath:db/migration
+
+# Porta da aplicação (opcional)
+server.port=8080
